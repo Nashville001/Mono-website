@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        .logo{
+            padding: 14px;
+        }
+        .navbar{
+          background-color: white;
+          position: relative;
+          z-index: 999;
+        }
+      .navbar ul{
+        list-style-type: none;
+        margin: 10px;
+        padding: 5px;
+      }
+      .navbar li{
+        display: inline-block;
+      }
+      .navbar ul ul{
+        position: absolute;
+        top: 100%;
+        display: none;
+      }
+      .navbar ul ul li{
+        display: block;
+      }
+      .navbar li:hover ul{
+        display: block;
+      }
+      .navbar ul ul li:hover{
+        background-color: burlywood;
+      }
+      .Products ul li{
+        display: grid;
+      }
+     .container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+     }
+     .Choose{
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+     }
+     .Pay{
+      grid-column: 1;
+      grid-row: 2 / 4;
+     }
+      .Choose{
+        width: 700px;
+        height: 500px;
+        border: 15px solid white;
+        border-radius: 30px;
+        margin: 20px;
+        padding: 20px;
+        background-image: url('connect.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+      }
+      #text-in{
+        text-align: start;
+        color: white;
+        text-decoration: solid;
+      }
+      .Pay{
+        width: 500px;
+        height: 500px;
+        border: 15px solid white;
+        border-radius: 30px;
+        margin: 20px;
+        padding: 20px;
+        background-image: url("directpay.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+      }
+      .Percept{
+        color: white;
+        width: 500px;
+        height: 500px;
+        border: 15px solid white;
+        border-radius: 30px;
+        margin: 20px;
+        padding: 20px;
+        background-image: url("percept.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-clip: padding-box;
+        overflow: hidden;
+      }
+      #btn1{
+        top: 50%;
+        background-color: white;
+        color: blue;
+        border: none;
+        border-radius: 15px;
+        padding: 10px;
+        height: 50px;
+        width: 200px;
+        text-decoration: solid;
+      }
+     #btn2{
+      top: 100%;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 5px;
+      min-height: 50px;
+      min-width: 200px;
+     }
+     #btn3{
+      top: 50%;
+      background-color: rgb(49, 44, 44);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 5px;
+      height: 50px;
+      width: 200px;
+     }
+     .box {
+      width: 300px;
+      height: 200px;
+      overflow: auto;
+      border: 1px solid #000;
+      padding: 10px;
+     }
+
+    .toggle {
+       display: none;
+     }
+
+     .heading {
+       cursor: pointer;
+      }
+
+     .sentence {
+     display: none;
+     }
+
+     .toggle:checked + .heading + .sentence {
+       display: block;
+     }
+
+      </style>
+
+    </head>
+
+    <Body>
+      <div class="logo">
+        <img src="mono_logo.svg" alt="Logo"> 
+      </div>
+      <!---<nav class="navbar">
+        <div class="dropdown">
+        <h3>Why Mono</h3>
+        <p>Why Choose Mono</p> 
+        <p>See a Demo</p> 
+        <p>Pricing</p>
+      </nav>
+        <br>
+        
+        <div id="Products">
+            <p>Connect</p>
+            <p>Statement Pages</p>
+            <p>DirectPay</p>
+            <p>DirectPay Pages</p>
+            <p>Portal</p>
+            <p>Percept</p>
+          </div>
+      </div>
+      --->
+      <nav class="navbar">
+        <ul>
+          <li>
+            Why Mono
+            <ul>
+              <li>Why Choose Mono</li>
+              <li>See a Demo</li>
+              <li>Pricing</li>
+            </ul>
+          </li>
+          <li class="Products">
+            Products
+            <ul>
+              <li>Connect</li>
+              <li>Statement Pages</li>
+              <li>DirectPay</li>
+              <li>DirectPay Pages</li>
+              <li>Portal</li>
+              <li>Percept</li>
+            </ul>
+          </li>
+
+        </ul>
+      </nav>
+      <br>
+      <div class="container">
+        <div class="Choose">
+         <div id="text-in">
+          <h2>I don't really know what to write </h2>
+          <h4>But it is all love been going thru it but imma be alright</h4>
+         </div>
+         <button type="button" id="btn1">Quit eating it</button>
+        </div>
+
+      <div class="Pay">
+        <div id="with-me">
+          <h2>Pay Up</h2>
+          <h4>Pay up or you get schwacked</h4>
+        </div>
+        <button type="button" id="btn2">Pay Now get later</button>
+        <br>
+        <h4>In conjuction with <img src="flutterwave_logo.svg"></h4>
+      </div>
+
+
+      <div class="Percept">
+        <h2>Percept is basically perceotion</h2>
+        <h4>Now perception is how you see things in your own opinion</h4>
+        <button type="button" id="btn3">Percept</button>
+      </div>
+    </div>
+    <div class="people">
+       <button class="people-btn">Lending</button>
+
+    </div>
+    <div class="box">
+      <input type="checkbox" id="heading1" class="toggle">
+      <label for="heading1" class="heading">Heading 1</label>
+      <p class="sentence">This is the first sentence.</p>
+      
+      <input type="checkbox" id="heading2" class="toggle">
+      <label for="heading2" class="heading">Heading 2</label>
+      <p class="sentence">This is the second sentence.</p>
+      
+      <input type="checkbox" id="heading3" class="toggle">
+      <label for="heading3" class="heading">Heading 3</label>
+      <p class="sentence">This is the third sentence.</p>
+    </div>
+    <label for="why">Why Mono</label><br>
+    <select style="padding: 16px; margin: 16px; gap: 16px; border: none; width: 350px; height: 70px;" name="why" id="why">
+      <option value="Demo">Why mono</option>
+      <option value="price">Pricing</option>
+      <option value="choose">Why choose mono</option>
+      <option value=""></option>
+    </select>
+    <div class="custom-dropdown">
+      <span class="selected-option">Select an option</span>
+      <select name="" id="">
+        <ul class="options">
+          <li data-value="Option 1">Option 1</li>
+          <li data-value="Option 2">Option 2</li>
+          <li data-value="Option 3">Option 3</li>
+        </ul>
+      </select>
+    </div>
+    
+    </Body>
+</html>
