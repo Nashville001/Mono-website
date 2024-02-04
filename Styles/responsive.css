@@ -1,0 +1,393 @@
+@media  screen and (min-width: 350px) and (max-width: 490px) {
+    html{
+      
+        margin: 0;
+       
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        /* padding: 7px; */
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    .container{
+        padding: 10px 6px; 
+    }
+    .menu-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* padding: 1.5rem 1.25rem; */
+    }
+    .hide{
+        display: none;
+    }
+    .burger-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        height: 48px;
+        width: 48px;
+        min-width: 48px;
+        pointer-events: all;
+        /* gap: 4px; */
+        flex-direction: column;
+        border: 1px solid var(--gray-border);
+    }
+    .burger-menu svg{
+        height: 32px;
+        stroke: var(--link-gray);
+        width: 32px;
+    }
+    .rounded{
+        max-width: 80%;
+    }
+    .reliable{
+        max-width: 100%;
+
+    }
+    .reliable h1{
+        max-width: 100%;
+        font-size: 50px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: normal;
+        
+    }
+    .reliable p{
+        max-width: 90%;
+    }
+    .reliable-btn{
+        margin-top: 24px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .button-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 15px;
+    }
+    .button-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 15px;
+    }
+    .trusted p{
+        display: flex;
+        justify-content: left;
+        align-items: start;
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .img-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+
+    }
+    .connect{
+        padding-top: 2.5rem;
+       padding-bottom: 200px !important;
+       padding-right: 6.5rem;
+       padding-left: 5.5rem;
+       background-position: 50% 50%;
+       max-width: -webkit-fill-available;
+    }
+    .directpay{
+        padding: 5.75rem;
+    }
+    .percept{
+        padding: 5.75rem;
+    }
+    .building-board{
+        padding: 20px 20px;
+        padding-bottom: 0 !important;
+        /* overflow-x: auto; */
+        /* overflow: hidden; */
+    }
+    .board-head{
+        overflow-x: scroll;
+        white-space: nowrap;
+        width: 70%;
+    }
+    .board-head p{
+        padding: 0px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .board-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why-head h1{
+        font-size: 30px;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    .why-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+        max-width: min-content;
+    }
+    .testimony-1{
+        height: 100%;
+        padding: 24px;
+    }
+    .getting-started{
+        width: max-content;
+        margin: auto;
+        padding-left: 2.75rem;
+    }
+    .getting-started h1{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        text-align: left;
+    }
+    .API{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .response{
+        display: flex;
+        justify-content: center;
+    }
+    .response img{
+        width: 100%;
+    }
+    .grid-view{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 490px;
+    }
+    .SDK{
+        padding: 5.5rem;
+    }
+    footer{
+        width: max-content;
+        padding: 4.99rem;
+    }
+    .fcontainer{
+        padding: 50px 30px 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-head h1{
+        font-size: 30px;
+    }
+    .footer-head p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .footer-bottom{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .bottom-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .bottom-logo p{
+        display: inline-block;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        white-space: nowrap;
+    }
+    .media-links{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+@media  screen and (min-width: 500px) and (max-width: 900px) {
+    html{
+      
+        margin: 0;
+       
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        /* padding: 7px; */
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    .container{
+        padding: 20px 30px;
+    }
+    .menu-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 1.5rem 1.25rem;
+    }
+    .hide{
+        display: none;
+    }
+    .burger-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        height: 48px;
+        width: 48px;
+        min-width: 48px;
+        pointer-events: all;
+        /* gap: 4px; */
+        flex-direction: column;
+        border: 1px solid var(--gray-border);
+    }
+    .burger-menu svg{
+        height: 32px;
+        stroke: var(--link-gray);
+        width: 32px;
+    }
+    .rounded{
+        max-width: 80%;
+    }
+    .reliable{
+        max-width: 100%;
+
+    }
+    .reliable h1{
+        width: 100%;
+        font-size: 4.125rem;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: normal;
+        
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .business-view{
+        padding-left: 3.75rem;
+        padding-right: 3.75rem;
+    }
+    .building-board{
+        padding: 20px 20px;
+        padding-bottom: 0 !important;
+        /* width: 100%; */
+        /* overflow: hidden; */
+    }
+    .board-head{
+        /* width: 100%;  */
+        overflow-x: scroll;
+        white-space: nowrap;
+        width: 70%;
+    }
+    .board-head p{
+        padding: 0px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .board-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .bd-image img{
+        margin-top: 60px;
+        width: 600px;
+    }
+    .testimony-1{
+        padding: 2.5rem;
+    }
+    .getting-started{
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+        padding-left: 3.75rem;
+        padding-right: 3.75rem;
+    }
+    .getting-started h1{
+        font-size: 3rem;
+        line-height: 1;
+    }
+    .API{
+        align-items: center;
+    }
+    .API-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        width: max-content;
+    }
+    .bottom{
+        width: 100%;
+        display: flex;
+        /* justify-content: space-between;
+        align-items: end; */
+        align-items: center;
+    }
+    .bottom-logo{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+    .media-links{
+        width: 50%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 1200px) {
+    /* .main{
+         margin: auto; 
+    } */
+    .reliable{
+        margin-right: 5rem;
+        max-width: 43.75rem;
+    }
+    /* .build{
+        
+    } */
+    .business-view{
+        padding-left: 9.375rem;
+        padding-right: 9.375rem;
+    }
+    .the-why{
+       margin: auto;
+        padding-top: 9.375rem;
+        padding-bottom: 9.375rem;
+    }    
+    .getting-started{
+            padding-left: 9.375rem;
+            padding-right: 9.375rem;
+        }
+        footer{
+            padding-left: 9.375rem;
+            padding-right: 9.375rem;
+        }
+    
+} 
