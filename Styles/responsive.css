@@ -105,6 +105,7 @@
        background-position: 50% 50%;
        max-width: -webkit-fill-available;
        width: 440px;
+       height: 550px;
     }
     .directpay{
         padding: 5.75rem;
