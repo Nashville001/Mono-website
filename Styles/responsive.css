@@ -77,6 +77,9 @@
         align-items: center;
         padding: 14px 15px;
     }
+    .trusted{
+        width: 400px;
+    }
     .trusted p{
         display: flex;
         justify-content: left;
@@ -101,12 +104,15 @@
        padding-left: 5.5rem;
        background-position: 50% 50%;
        max-width: -webkit-fill-available;
+       width: 440px;
     }
     .directpay{
         padding: 5.75rem;
+        width: 450px;
     }
     .percept{
         padding: 5.75rem;
+        width: 450px;
     }
     .building-board{
         padding: 20px 20px;
