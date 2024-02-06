@@ -185,7 +185,7 @@
         width: 350px;
     }
     footer{
-        width: max-content;
+        width: 500px;
         padding: 4.99rem;
     }
     .fcontainer{
@@ -346,7 +346,8 @@
         align-items: center;
     }
     footer{
-        width: max-content;
+        /* width: max-content; */
+        width: 500px;
         
     }
     .fcontainer{
