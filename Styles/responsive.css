@@ -342,8 +342,8 @@
         width: max-content;
     }
     .footer-bottom{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        display: flex;
+        flex-wrap: wrap;
     }
     .bottom{
         width: 100%;
