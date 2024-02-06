@@ -144,7 +144,11 @@
     }
     .testimony-1{
         height: 100%;
-        padding: 24px;
+        /* padding: 24px; */
+        width: 500px;
+    }
+    .testimony-2{
+        width: 500px;
     }
     .getting-started{
         width: max-content;
@@ -160,6 +164,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        width: 450px;
     }
     .response{
         display: flex;
@@ -177,6 +182,7 @@
     }
     .SDK{
         padding: 5.5rem;
+        width: 350px;
     }
     footer{
         width: max-content;
@@ -319,6 +325,7 @@
     .testimony-1{
         padding: 2.5rem;
     }
+    
     .getting-started{
         padding-top: 7.5rem;
         padding-bottom: 7.5rem;
