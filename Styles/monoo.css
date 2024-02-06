@@ -858,7 +858,7 @@ footer{
     max-width: 100%;
 }
 .fcontainer{
-    padding: 180px 70px 90px;
+    padding: 100px 10px 30px;
     display: flex;
     flex-direction: column;
     gap: 70px;
