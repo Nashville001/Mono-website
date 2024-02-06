@@ -341,6 +341,10 @@
     footer{
         width: max-content;
     }
+    .footer-bottom{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
     .bottom{
         width: 100%;
         display: flex;
@@ -376,11 +380,11 @@
         padding-left: 9.375rem;
         padding-right: 9.375rem;
     }
-    .the-why{
+    /* .the-why{
        margin: auto;
         padding-top: 9.375rem;
         padding-bottom: 9.375rem;
-    }    
+    }     */
     .getting-started{
             padding-left: 9.375rem;
             padding-right: 9.375rem;
