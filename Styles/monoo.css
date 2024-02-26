@@ -768,6 +768,10 @@ figure{
     /* padding-left: 6.25rem; */
     padding-right: 6.25rem;
 }
+/* .getting-started-container{
+    max-width: 75rem;
+      margin: auto; 
+} */
 .getting-started h1{
     font-size: 64px;
     /* font-weight: 600; */
