@@ -13,12 +13,13 @@
     }
     .container{
         padding: 10px 6px; 
+        margin: 0;
     }
     .menu_wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 90%;
+        width: 60%;
         /* padding: 1.5rem 1.25rem; */
     }
     .hide{
@@ -44,6 +45,9 @@
     }
     .rounded{
         max-width: 80%;
+    }
+    .main{
+        width: 80%;
     }
     .reliable{
         max-width: 80%;
@@ -104,18 +108,24 @@
         padding-top: 2.5rem;
        padding-bottom: 200px !important;
        padding-right: 6.5rem;
-       padding-left: 5.5rem;
+       padding-left: 1.5rem;
        background-position: 50% 50%;
        max-width: -webkit-fill-available;
        width: 70%;
        height: 550px;
     }
     .directpay{
-        padding: 5.75rem;
+        padding-top: 3.75rem;
+        padding-bottom: 3.75rem;
+        padding-right: 3.75rem;
+        padding-left: 1.5rem;
         width: 70%;
     }
     .percept{
-        padding: 5.75rem;
+        padding-top: 3.75rem;
+        padding-bottom: 3.75rem;
+        padding-right: 3.75rem;
+        padding-left: 1.5rem;
         width: 70%;
     }
     .business-view{
@@ -126,7 +136,7 @@
         padding-bottom: 0 !important;
         /* overflow-x: auto; */
         /* overflow: hidden; */
-        width: auto;
+        width: 70%;
     }
     .board-head{
         overflow-x: scroll;
@@ -134,7 +144,7 @@
         width: 70%;
     }
     .board-head p{
-        padding: 0px;
+        padding: 5px;
         width: 100%;
         font-size: 16px;
     }
@@ -144,10 +154,23 @@
         justify-content: space-evenly;
         align-items: center;
     }
+    .bd-text>h1{
+        font-size: 20px;
+    }
+    .bd-text>p{
+        font-size: 20px;
+        width: 50%;
+    }
+    .bd-image>img{
+        width: 70%;
+    }
     .why-head h1{
         font-size: 30px;
         line-height: normal;
         letter-spacing: normal;
+    }
+    .why-head p{
+        font-size: 20px;
     }
     .why-flex{
         display: flex;
@@ -159,10 +182,16 @@
     .testimony-1{
         height: 100%;
         /* padding: 24px; */
-        width: 90%;
+        width: 70%;
+    }
+    .testimony-1>h2{
+        font-size: 20px;
     }
     .testimony-2{
-        width: 90%;
+        width: 70%;
+    }
+    .testimony-2>h2{
+        font-size: 20px;
     }
     .pointers{
         display: none;
@@ -181,7 +210,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        width: 100%;
+        width: 80%;
     }
     .response{
         display: flex;
@@ -195,15 +224,24 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        max-width: 70%;
+        max-width: 80%;
     }
     .SDK{
-        padding: 5.5rem;
-        width: 70%;
+        padding: 1.5rem;
+        width: 80%;
+    }
+    .SDK>img{
+        width: 30px;
+    }
+    .SDK h1{
+        font-size: 20px;
+    }
+    .SDK>a{
+        font-size: 20px;
     }
     footer{
         width: 100%;
-        padding: 4.99rem;
+        /* padding: 4.99rem; */
     }
     .fcontainer{
         padding: 50px 30px 35px;
@@ -212,7 +250,7 @@
         justify-content: space-between;
     }
     .footer-head h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .footer-head p{
         font-size: 18px;
@@ -220,7 +258,11 @@
     }
     .footer-bottom{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        /* grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); */
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: repeat(2, 1fr);    /* Two rows */
+        gap: 30px;  
+        justify-content: center;
     }
     .bottom{
         display: flex;
@@ -414,10 +456,12 @@
     }
     .footer-bottom{
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Two columns */
-        grid-template-rows: repeat(2, 1fr);    /* Two rows */
-        gap: 30px;  
-        justify-content: center;
+        /* grid-template-columns: repeat(2, 1fr); /* Two columns */
+        /* grid-template-rows: repeat(2, 1fr);    */
+        /* gap: 30px;   */
+        /* justify-content: center;  */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     }
     .bottom{
         width: 100%;
