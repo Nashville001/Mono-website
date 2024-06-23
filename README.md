@@ -29,11 +29,11 @@ The project was built using the following technologies:
 
 ##Installation
 To run the OPay website clone locally, follow these steps:
-1. Clone the repository: (git clone https://github.com/Nashville001/Mono-website.git)
+1. Clone the repository: git clone https://github.com/Nashville001/Mono-website.git
 2. Navigate to the project directory: cd Mono-website
 3. Open the index.html file in your web browser.
 
-Alternatively, you can simply view the website online by visiting (https://github.com/Nashville001/Mono-website)
+Alternatively, you can simply view the website online by visiting https://nashville001.github.io/Mono-website/
 
 ## Usage
 The Mono website clone is for educational purposes only and not meant for commercial use. Users can explore the various services and features offered by Mono.
