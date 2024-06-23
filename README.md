@@ -2,13 +2,13 @@
 This is a mono website clone, an API fintech company that helps businesses to access high-quality financial data and direct bank payments.  The clone aims to replicate the look and feel of the original Mono website, showcasing its features and services.
 
 ## Table of Contents
--[Introduction](https://github.com/Nashville001/Mono-website/blob/master/README.md/Introduction)
--[Features](https://github.com/Nashville001/Mono-website/blob/master/README.md/Features)
--[Technologies Used](https://github.com/Nashville001/Mono-website/blob/master/README.md/Technologies)
--[Installation](https://github.com/Nashville001/Mono-website/blob/master/README.md/Installation)
--[Usage](https://github.com/Nashville001/Mono-website/blob/master/README.md/Usage)
--[Contributing](https://github.com/Nashville001/Mono-website/blob/master/README.md/Contributing)
--[License](https://github.com/Nashville001/Mono-website/blob/master/README.md/License)
+. [Introduction](https://github.com/Nashville001/Mono-website/blob/master/README.md/Introduction)
+. [Features](https://github.com/Nashville001/Mono-website/blob/master/README.md/Features)
+. [Technologies Used](https://github.com/Nashville001/Mono-website/blob/master/README.md/Technologies)
+. [Installation](https://github.com/Nashville001/Mono-website/blob/master/README.md/Installation)
+. [Usage](https://github.com/Nashville001/Mono-website/blob/master/README.md/Usage)
+. [Contributing](https://github.com/Nashville001/Mono-website/blob/master/README.md/Contributing)
+. [License](https://github.com/Nashville001/Mono-website/blob/master/README.md/License)
 
 ##Introduction
 The Mono website clone is a web application designed to mimic the layout and design of the original Mono website. It offers users the ability to explore and learn about the various financial services and payment solutions offered by Mono.
@@ -33,7 +33,7 @@ To run the OPay website clone locally, follow these steps:
 2. Navigate to the project directory: cd Mono-website
 3. Open the index.html file in your web browser.
 
-[Alternatively, you can simply view the website online by visiting](https://github.com/Nashville001/Mono-website)
+Alternatively, you can simply view the website online by visiting (https://github.com/Nashville001/Mono-website)
 
 ##Usage
 The Mono website clone is for educational purposes only and not meant for commercial use. Users can explore the various services and features offered by Mono.
