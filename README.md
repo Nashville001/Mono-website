@@ -43,4 +43,4 @@ The Mono website clone is for educational purposes only and not meant for commer
 Contributions to this project are not accepted, as it is intended for personal learning and educational purposes only.
 
 ## License
-This project is licensed under the [MIT] License. Feel free to use the code as a reference for your own educational projects. However, please be aware that this is a clone project and not an official representation of Mono.
+This project is licensed under the (MIT) License. Feel free to use the code as a reference for your own educational projects. However, please be aware that this is a clone project and not an official representation of Mono.
