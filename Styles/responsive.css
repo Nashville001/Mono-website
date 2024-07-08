@@ -1,26 +1,28 @@
-@media  screen and (min-width: 350px) and (max-width: 490px) {
-    html{
-      
-        margin: 0;
-       
-    }
-    body{
-        width: 100vw;
-        height: 100vh;
-        /* padding: 7px; */
-        overflow-x: hidden;
-        box-sizing: border-box;
-    }
+@media  screen and (max-width: 490px) {
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+  
     .container{
-        padding: 10px 6px; 
-        margin: auto;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 20px;
+        margin: 0 auto;
+        /* max-width: 400px; */
     }
     .menu_wrapper{
         display: flex;
         justify-content: space-between;
-        align-items: center;
         width: 100%;
-        /* padding: 1.5rem 1.25rem; */
+        /* max-width: 490px; */
+        padding: 5px 0;
+        margin-bottom: 3rem;
+    }
+    #logo img{
+        width: 70px;
     }
     .hide{
         display: none;
@@ -29,7 +31,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 50%;
         height: 48px;
         width: 48px;
         min-width: 48px;
@@ -37,109 +38,198 @@
         /* gap: 4px; */
         flex-direction: column;
         border: 1px solid var(--gray-border);
-    }
+    } 
     .burger-menu svg{
         height: 32px;
         stroke: var(--link-gray);
         width: 32px;
     }
     .information{
-        width: 90%;
+        width: 80%;
+        margin-bottom: 2px;
     }
     .rounded{
-        max-width: 90%;
+        width: 100%;
+        padding: 3px 5px;
+    }
+    .first-round p{
+        text-wrap: nowrap;
     }
     .main{
-        width: 100%;
+        max-width: 100%;
     }
     .reliable{
-        max-width: 70%;
-
+        width: 100%;
     }
     .reliable h1{
-        max-width: 60%;
-        font-size: 50px;
+        width: 100%;
+        font-size: 2rem;
         font-weight: 500;
-        line-height: normal;
-        letter-spacing: normal;
-        
+        line-height: 2rem;
+        /* text-wrap: nowrap; */
+        margin-bottom: 2px;
     }
     .reliable p{
-        max-width: 90%;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1rem;
+        text-wrap: nowrap;
     }
     .reliable-btn{
-        margin-top: 24px;
+        margin-bottom: 3rem;
         display: flex;
-        flex-wrap: wrap;
-    }
-    .button-1{
-        display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
-        padding: 14px 15px;
+        /* margin-left: 10px; */
     }
-    .button-2 {
+    .btn-1{
+        padding: 15px 20px;
         display: flex;
-        justify-content: center;
         align-items: center;
-        padding: 14px 15px;
+        justify-content: center;
+        /* margin-left: 20px; */
+        /* display: none; */
     }
-    .trusted{
-        width: 70%;
+    .btn-1 div{
+        font-size: 12px;
+        /* text-wrap: nowrap; */
+    }
+    .btn-1 svg{
+        width: 12px;
+        height: 12px;
+    }
+    .btn-2{
+        padding: 15px 20px;
+        margin-left: 20px;
+    }
+    .btn-2 div{
+        font-size: 12px;
+        text-wrap: nowrap;
+    }
+    .btn-2 svg{
+        width: 12px;
+        height: 12px;
     }
     .trusted p{
-        display: flex;
-        justify-content: left;
-        align-items: start;
+       font-size: 14px;
+       line-height: 12px;
+
     }
     .logos{
+        /* display: flex;
+        flex: 2;
+        flex-wrap: wrap; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
+        /* gap: 40px; */
+        row-gap: 10px;
+        column-gap: 10px;
+        margin-bottom: 2rem;
     }
-    .build{
-        width: 70%;
+    .logos img{
+        width: 70px;
+        height: auto;
+    }
+    #flutterwave{
+        width: 120px;
+    }
+    .build h1{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        width: 100%;
+        text-wrap: nowrap;
+    }
+    .build p{
+        font-size: 14px;
+        line-height: 12px;
+        width: 100%;
+        text-wrap: nowrap;
     }
     .img-section{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items: start;
-        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .connect{
-        padding-top: 2.5rem;
-       padding-bottom: 200px !important;
-       padding-right: 6.5rem;
-       padding-left: 1.5rem;
-       background-position: 50% 50%;
-       max-width: -webkit-fill-available;
-       width: 100%;
-       height: 550px;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 25px;
+        padding-bottom: 70px;
+        background-position: 81% 50%;
+        max-height: 450px;
+        width: 85%;
+    }
+    .connect h3{
+        font-size: 1rem;
+    }
+    .connect p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .connect>button{
+        padding: 7px 9px;
+        font-size: 14px;
     }
     .directpay{
-        padding-top: 3.75rem;
-        padding-bottom: 3.75rem;
-        padding-right: 3.75rem;
-        padding-left: 1.5rem;
-        width: 100%;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 25px;
+        padding-bottom: 70px;
+        max-height: 350px;
+        width: 85%;
+        background-position: 81% 50%; 
+    }
+    .directpay h3{
+        font-size: 1rem;
+    }
+    .directpay p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .directpay button{
+        padding: 11px 13px;
+        font-size: 14px;
     }
     .percept{
-        padding-top: 3.75rem;
-        padding-bottom: 3.75rem;
-        padding-right: 3.75rem;
-        padding-left: 1.5rem;
-        width: 100%;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 25px;
+        padding-bottom: 70px;
+        max-height: 350px;
+        width: 85%;
+        background-position: 81% 50%; 
     }
-    .business-view{
-        width: 90%;
+    .percept h3{
+        font-size: 1rem;
+    }
+    .percept p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .percept button{
+        padding: 3px 13px;
+        font-size: 14px;
+    }
+    .business h1{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        width: 100%;
+        text-wrap: nowrap;
+    }
+    .business p{
+        font-size: 14px;
+        line-height: 12px;
+        width: 100%;
+        text-wrap: nowrap;
     }
     .building-board{
-        padding: 20px 20px;
-        padding-bottom: 0 !important;
-        /* overflow-x: auto; */
-        /* overflow: hidden; */
-        width: 100%;
+        padding: 14px 13px;
+        padding-bottom: 0;
+        width: 90%;
+        height: auto;
+        position: relative;
     }
     .board-head{
         overflow-x: scroll;
@@ -149,146 +239,292 @@
     .board-head p{
         padding: 5px;
         width: 100%;
-        font-size: 16px;
+        font-size: 14px;
     }
     .board-details{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: center;
+        /* align-items: center; */
+        gap: 50px
+        /* display: block; */
     }
-    .bd-text>h1{
-        font-size: 20px;
+    .bd-text{
+        margin-bottom: 300px;
     }
-    .bd-text>p{
-        font-size: 20px;
-        width: 50%;
+    .bd-text h1{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        width: 74%;
     }
-    .bd-image>img{
-        width: 70%;
+    .bd-text p{
+        font-size: 14px;
+        line-height: 19px;
+        width: 90%;
+        text-wrap: wrap;
     }
-    .why-head h1{
-        font-size: 30px;
-        line-height: normal;
-        letter-spacing: normal;
+    .bd-text a {
+        font-size: 14px;
+        line-height: 12px;
+        width: 100%;
+        text-wrap: nowrap;
     }
-    .why-head p{
-        font-size: 20px;
+    .bd-image{
+        position: absolute;
+        bottom: 0;
+    }
+    .bd-image img{
+        /* margin-top: 500px; */
+        width: 300px;
+        height: 300px;
+        /* position: absolute; */
+        bottom: 0;
+    }
+    .the-why h1{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        width: 100%;
+        text-wrap: nowrap;
+    }
+    .the-why p{
+        font-size: 14px;
+        line-height: 12px;
+        width: 100%;
+        text-wrap: nowrap;
     }
     .why-flex{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: start;
-        max-width: min-content;
+        display: block;
     }
     .testimony-1{
-        height: 100%;
-         /* padding: 1.5rem; */
-        width: 100%;
+        padding: 20px 9px;
+        /* padding-bottom: 0; */
+        width: 96%;
+        height: auto;
+        margin-bottom: 30px;
     }
-    .testimony-1>h2{
-        font-size: 20px;
+    .testimony-1 + .testimony-2 svg{
+        width: 14px;
+        height: 14px;
+    }
+    .testimony-1 h2{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        width: 100%;
+        text-wrap: wrap;
     }
     .testimony-2{
+        padding: 20px 9px;
+        /* padding-bottom: 0; */
+        width: 96%;
+        height: auto;
+    }
+    .testimony-2 h2{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
         width: 100%;
-        height: 100%;
-        /* padding: 1.5rem; */
+        text-wrap: wrap;
     }
-    .testimony-2>h2{
-        font-size: 20px;
+    .people-image img{
+        width: 34px;
+        height: 34px;
     }
-    .pointers{
-        display: none;
+    .image-tag{
+        padding: 2px;
+    }
+    .image-tag img{
+        width: 14px;
+        height: 14px;
+    }
+    .people-name h3{
+        font-size: 11px;
+        line-height: 12px;
+        width: 100%;
+        text-wrap: nowrap;
+    }
+    .people-name p{
+        font-size: 10px;
+        line-height: 10px;
+        width: 100%;
+        text-wrap: nowrap;
+    }
+    .page-1{
+        padding: 15px;
+    }
+    .page-2{
+        padding: 15px;
     }
     .getting-started{
-        /* width: max-content; */
-        margin: auto;
-        padding-left: 2.75rem;
+        overflow-x: hidden;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
-    .getting-started h1{
-        font-size: 2.5rem;
-        line-height: 2.5rem;
-        text-align: left;
+    .getting-started-container{
+        max-width: max-content;
     }
-    .API{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        width: 80%;
-    }
-    .response{
-        display: flex;
-        justify-content: center;
-    }
-    .response img{
-        width: 80%;
+    .getting-started-container h1{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        width: 100%;
+        text-wrap: nowrap;
     }
     .grid-view{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        /* justify-content: center; */
         align-items: center;
-        max-width: 80%;
+    }
+    .API{
+        display: block;
+        padding: 39px 10px 0;
+        width: 350px;
+        max-width: 400px;
+        position: relative;
+    }
+    .API-docs{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 159px;
+    }
+    .API-docs h1{
+        text-align: center;
+        width: 99%;
+        white-space: pre-wrap;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .response img{
+        width: 303px;
+        height: 200px;
+        margin-bottom: -50px;
+        position: absolute;
+        bottom: 0;
+    }
+    .SDK-Flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .SDK{
-        padding: 1.5rem;
-        width: 80%;
-    }
-    .SDK>img{
-        width: 30px;
+        padding: 15px;
+        margin-bottom: 20px;
+        align-items: center;
+        width: 350px;
     }
     .SDK h1{
-        font-size: 20px;
+        width: 50%;
+        margin-bottom: 0;
+        font-size: 1.2rem;
     }
-    .SDK>a{
-        font-size: 20px;
+    .SDK a{
+        margin-top: -50px;
+        font-size: 11px;
+        font-weight: 500;
     }
     footer{
-        width: 100%;
-        /* padding: 4.99rem; */
+        overflow-x: hidden;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        max-width: max-content;
     }
     .fcontainer{
-        padding: 50px 30px 35px;
+       padding: 20px 20px;
+        max-width: 100%;
+        margin: 0 auto;
+        gap: 0;
+    }
+    .footer-head{
+        align-items: center;
+    }
+    .groove{
+        width: 80%;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
     }
     .footer-head h1{
-        font-size: 20px;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        width: 79%;
+        text-wrap: nowrap;
     }
     .footer-head p{
-        font-size: 18px;
-        font-weight: 400;
+        font-size: 14px;
+        line-height: 12px;
+        width: 79%;
+        text-wrap: wrap;
     }
-    .footer-bottom{
-        display: grid;
-        /* grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); */
-        grid-template-columns: repeat(2, 1fr); /* Two columns */
-        grid-template-rows: repeat(2, 1fr);    /* Two rows */
-        gap: 30px;  
+    .buttons{
+        display: flex;
         justify-content: center;
     }
+    .bttn-2{
+        padding: 15px 20px;
+        margin-left: 20px;
+    }
+    .bttn-2 div{
+        font-size: 12px;
+        text-wrap: nowrap;
+    }
+    .bttn-2 svg{
+        width: 12px;
+        height: 12px;
+    }
+    .footer-bottom{
+        /* flex-wrap: wrap; */
+        /* align-items: center; */
+        /* padding-left: 10px; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        padding-left: 10px;
+    }
+    .fproducts,
+    .fresources,
+    .legal,
+    .comp {
+        margin-top: 40px;
+    }
+    .fproducts li,
+    .fresources li,
+    .comp li,
+    .legal li{
+        font-size: 14px;
+        line-height: 12px;
+        width: 100%;
+        text-wrap: nowrap;
+    }
+
     .bottom{
-        display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        margin-top: 40px;
     }
     .bottom-logo{
-        display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
     .bottom-logo p{
-        display: inline-block;
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-        white-space: nowrap;
+        font-size: 14px;
+        line-height: 12px;
+        width: 100%;
+       text-align: center;
     }
     .media-links{
-        display: flex;
-        justify-content: space-evenly;
+        width: 42%;
+        justify-content: space-between;
         align-items: center;
+    }
+    .twitter{
+        width: 39%;
+    }
+    .twitter h5{
+        font-size: 11px;
+        line-height: 12px;
+        width: 100%;
+        text-wrap: nowrap;
     }
 }
 @media  screen and (min-width: 500px) and (max-width: 900px) {
@@ -298,21 +534,25 @@
        
     }
     body{
-        width: 100vw;
         height: 100vh;
         /* padding: 7px; */
         overflow-x: hidden;
         box-sizing: border-box;
+        margin: 0;
     }
     .container{
-        padding: 20px 30px;
-        margin: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        margin: 0 auto;
     }
     .menu_wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 90%;
+        width: 100%;
+        padding: 10px 0;
+        margin-bottom: 2rem;
         /* padding: 1.5rem 1.25rem; */
     }
     .hide{
@@ -322,22 +562,28 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 50%;
+        /* border-radius: 50%; */
         height: 48px;
-        width: 35px;
-        min-width: 35px;
+        width: 50px;
         pointer-events: all;
         /* gap: 4px; */
         flex-direction: column;
-        border: 1px solid var(--gray-border);
+        /* border: 1px solid var(--gray-border); */
     }
     .burger-menu svg{
-        height: 32px;
-        stroke: var(--link-gray);
-        width: 32px;
+        width: 50px;
+        height: 50px;
+        stroke: var(--gray-border);
+        fill: black;
+        opacity: 1;
+    }
+    .information{
+        width: 80%;
+        margin-bottom: 5px;
     }
     .rounded{
-        max-width: 80%;
+        width: 100%;
+        padding: 3px 5px;
     }
     .reliable{
         max-width: 100%;
@@ -359,98 +605,221 @@
     .img-section{
         width: 90%;
     }
+    .build h1{
+        font-size: 1.95rem;
+        line-height: 2rem;
+        width: 80%;
+    }
+    .build p{
+        font-size: 19px;
+        line-height: 30px;
+        width: 80%;
+    }
+    .img-section{
+        width: 90%;
+    }
+    .connect{
+        padding-left: 3.85rem;
+        padding-right: 1.95rem;
+        /* width: 500px; */
+    }
+    .connect h3,
+    .directpay h3,
+    .percept h3 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .connect p,
+    .directpay p,
+    .percept p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    /* .directpay{
+        width: 230px;
+        padding: 1.75rem;
+    }
+    .percept{
+        width: 230px;
+        padding: 1.75rem;
+    } */
+    .percept button{
+        text-wrap: nowrap;
+    }
+    .business h1{
+        font-size: 1.95rem;
+        line-height: 2rem;
+        width: 80%;
+    }
+    .business p{
+        font-size: 19px;
+        line-height: 30px;
+        width: 80%;
+    }
     /* .business-view{
         padding-left: 3.75rem;
         padding-right: 3.75rem;
     } */
     .building-board{
-        padding: 20px 20px;
+        padding: 20px 30px;
         padding-bottom: 0 !important;
-         width: 80%; 
-        /* overflow: hidden; */
+         width: 90%; 
+        position: relative;
     }
     .board-head{
-        /* width: 100%;  */
-        overflow-x: scroll;
         white-space: nowrap;
-        width: 70%;
+        width: 100%;
+        gap: 10px;
     }
     .board-head p{
-        padding: 0px;
-        width: 100%;
+        padding: 5px;
         font-size: 16px;
     }
     .board-details{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .bd-text{
+        margin-bottom: 400px;
+    }
+    .bd-text h1{
+        font-size: 1.9rem;
+        line-height: 1.5rem;
+        width: 100%;
+    }
+    .bd-text p{
+        font-size: 18px;
+        line-height: 19px;
+        width: 100%;
+        text-wrap: pre-wrap;
+    }
+    .bd-image{
+        position: absolute;
+        bottom: 0;
     }
     .bd-image img{
         margin-top: 60px;
-        width: 600px;
+        width: 400px;
+        height: 400px;
     }
     .why-flex{
         width: 90%;
     }
+    .why-head h1{
+        font-size: 1.95rem;
+        line-height: 2rem;
+        width: 80%;
+    }
+    .why-head p{
+        font-size: 19px;
+        line-height: 30px;
+        width: 80%;
+    }
     .testimony-1{
-        padding: 2.5rem;
+        padding: 10px 30px;
         width: 45%;
+    }
+    .testimony-1 h2,
+    .testimony-2 h2{
+        font-size: 25px;
+        line-height: 30px;
+        width: 100%;
+        text-wrap: wrap;
     }
     .testimony-2{
         width: 45%;
+        padding: 10px 30px;
     }
     .pointers{
-        display: none;
+        display: flex;
+    }
+    .page-1,
+    .page-2 {
+        padding: 10px;
+    }
+    .page-1 svg,
+    .page-2 svg{
+        width: 14px;
+        height: 14px;
     }
     .getting-started{
-        padding-top: 7.5rem;
-        padding-bottom: 7.5rem;
-        padding-left: 3.75rem;
-        padding-right: 3.75rem;
-        /* width: 100%; */
+        overflow-x: hidden;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .getting-started-container{
+        max-width: max-content;
     }
     .getting-started h1{
         font-size: 3rem;
         line-height: 1;
+        width: 100%;
+        text-wrap: nowrap;
     }
     .grid-view{
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
     }
     .API{
-        align-items: center;
-        display: grid;
-        grid-template-columns: minmax(200px,1fr)1fr;
-        grid-column: span 3;
-        margin-bottom: 0;
+        display: block;
+        padding: 39px 10px 0;
+        width: 550px;
+        max-width: 700px;
+        position: relative;
     }
-    .API-cont{
+    .API-docs{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 350px;
     }
-    .response>img{
-        width: 300px;
+    .API-docs h1{
+        text-align: center;
+        width: 99%;
+        white-space: pre-wrap;
+        font-size: 1.9rem;
+        line-height: 2rem;
+    }
+    .response img{
+        width: 400px;
+        height: 300px;
+        margin-bottom: -50px;
+        position: absolute;
+        bottom: 0;
+    }
+    .SDK-Flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .SDK{
         padding: 10px 20px;
+        margin-bottom: 20px;
+        align-items: center;
+        width: 157px;
     } 
-    .SDK>img{
+    /* .SDK>img{
         width: 50px;
-    }
+    } */
     .SDK>h1{
         font-size: 20px;
-        width: 40%;
+        width: 55%;
+        text-wrap: wrap;
     }
     .SDK>a{
         font-size: 14px;
+        margin-top: -50px;
     }
     footer{
         /* width: max-content; */
-        width: 100%;
+        max-width: 100%;
         
     }
     .fcontainer{
@@ -459,14 +828,29 @@
         padding-left: 2.75rem;
         padding-right: 2.75rem;
     }
+    .footer-head h1{
+        font-size: 1.95rem;
+        line-height: 2rem;
+        width: 80%;
+    }
+    .footer-head p{
+        font-size: 18px;
+        line-height: 20px;
+        width: 79%;
+        text-wrap: wrap;
+    }
     .footer-bottom{
-        display: grid;
-        /* grid-template-columns: repeat(2, 1fr); /* Two columns */
-        /* grid-template-rows: repeat(2, 1fr);    */
-        /* gap: 30px;   */
-        /* justify-content: center;  */
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+       display: flex;
+       justify-content: space-between;
+
+    }
+    .fproducts,
+    .fresources,
+    .legal,
+    .comp {
+        font-size: 13px;
+        text-wrap: nowrap;
+        margin-right: 40px;
     }
     .bottom{
         width: 100%;
@@ -476,13 +860,20 @@
         align-items: center;
     }
     .bottom-logo{
-        width: 30%;
+        width: 50%;
         display: flex;
         justify-content: space-between;
-        /* align-items: center; */
+        align-items: center;
+    }
+    .bottom-logo img{
+        margin-top: 0;
+    }
+    .bottom-logo p,
+    .twitter h5{
+        font-size: 13px;
     }
     .media-links{
-        width: 50%;
+        width: 42%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -492,10 +883,10 @@
     /* .main{
          margin: auto; 
     } */
-    .reliable{
+    /* .reliable{
         margin-right: 5rem;
         max-width: 43.75rem;
-    }
+    } */
     /* .build{
         
     } */
@@ -508,7 +899,7 @@
         padding-top: 9.375rem;
         padding-bottom: 9.375rem;
     }     */
-    .getting-started{
+    /* .getting-started{
             padding-left: 9.375rem;
             padding-right: 9.375rem;
         }
@@ -516,5 +907,5 @@
             padding-left: 5.375rem;
             padding-right: 5.375rem;
         }
-    
+     */
 } 

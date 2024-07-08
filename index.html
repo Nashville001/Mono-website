@@ -17,7 +17,7 @@
     <div class="container">
       <header class="menu_wrapper"> 
           <div id="logo">
-                <img src="./Images/Logo/mono_logo.svg" alt="">
+                <img src="./Images/Logo/mono_logo.svg" alt="" >
             </div>
            
         <nav>
@@ -70,7 +70,7 @@
                    </li>
                    <li>
                        <button>
-                         <div>Products</div>
+                         <div id="nav_head">Products</div>
                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         <!-- <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-expand-arrow-32.png"> -->
                        </button>
@@ -91,33 +91,22 @@
                                 <li>
                                     <div class="item-title">
                                         <div>
-                                            <img src="./Images/directpay.svg" alt="">
+                                            <img src="./Images/statement-pages.svg" alt="">
                                         </div>
                                         <div class="title-word">
-                                            <h3>DirectPay</h3>
-                                            <p>Direct bank payment collection</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item-title">
-                                       <div>
-                                        <img src="./Images/portal.svg" alt="">
-                                    </div>
-                                        <div class="title-word">
-                                            <h3>Portal</h3>
-                                            <p>Linked account management</p>
+                                            <h3>Statement Pages</h3>
+                                            <p>No-code bank statement collection</p>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="item-title">
                                         <div>
-                                            <img src="./Images/statement-pages.svg" alt="">
+                                            <img src="./Images/directpay.svg" alt="">
                                         </div>
                                         <div class="title-word">
-                                            <h3>Statement Pages</h3>
-                                            <p>No-code bank statement collection</p>
+                                            <h3>DirectPay</h3>
+                                            <p>Direct bank payment collection</p>
                                         </div>
                                     </div>
                                 </li>
@@ -132,6 +121,19 @@
                                         </div>
                                     </div>
                                 </li>
+                                <li>
+                                    <div class="item-title">
+                                       <div>
+                                        <img src="./Images/portal.svg" alt="">
+                                    </div>
+                                        <div class="title-word">
+                                            <h3>Portal</h3>
+                                            <p>Linked account management</p>
+                                        </div>
+                                    </div>
+                                </li>
+                              
+                              
                                 <li>
                                     <div class="item-title">
                                         <div>
@@ -149,12 +151,12 @@
                    </li>
                    <li>
                        <button>
-                         <div>Learn</div>
+                         <div id="nav_head">Learn</div>
                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         <!-- <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-expand-arrow-32.png"> -->
                        </button>
                        <div class="dropdown_wrapper">
-                        <div class="dropdown">
+                        <div class="dropdown-2">
                             <ul class="list-items-with-description-2">
                                 <li>
                                     <div class="item-title">
@@ -203,12 +205,12 @@
                    <li>
                        <button>
                        
-                         <div>Developers</div>
+                         <div id="nav_head">Developers</div>
                         <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         <!-- <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-expand-arrow-32.png"> -->
                        </button>
                        <div class="dropdown_wrapper">
-                        <div class="dropdown">
+                        <div class="dropdown-2">
                             <ul class="list-items-with-description-2">
                                 <li>
                                     <div class="item-title">
@@ -244,47 +246,54 @@
         <!-- Burger menu -->
         <div>
             <button aria-label="open menu" class="burger-menu" type="button">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">
+                    <path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"></path>
+                    </svg> -->
+                    <!-- &#9776; -->
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                        <path d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"></path>
+                        </svg>
             </button>
         </div>
     </header> 
         <section class="information">
             <article class="rounded">
                 <div class="first-round">
-                    <div>
-                        <p style="background: blue; padding: 4px 12px; border-radius: 24px; width: 30px; height: auto; color: #f8f8f8;">New</p>
+                    <div class="first-circle">
+                        <p>NEW</p>
                     </div>
-                    <div>
-                        <p>Mono dashboard 3.0 is live!</p>
+                    <div class="round-text">
+                        <p>The Mono Widget 2.0 is live!</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#09172f}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
                     </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#09172f}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                    
                 </div>
             </article>
         </section>
         <section class="main">
             <article class="reliable">
-                <h1>Reliably access bank <br> accounts</h1>
+                <h1>Reliably access bank accounts</h1>
                 <p>Mono helps businesses to access high-quality <br> financial data and direct bank payments</p>
                 <div class="reliable-btn">
-                    <button class="button-1">
+                    <div class="btn-1">
                         <div>Get started for free</div>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#e9ecf1}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
-                    </button>
-                    <button class="btn-2">
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#e9ecf1}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                    </div>
+                    <div class="btn-2">
                         <div>Contact Sales</div>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#09172f}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
-                    </button>
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#09172f}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                    </div>
                 </div>
             </article>
             <article class="trusted">
                 <p>Trusted by</p>
                 <div class="logos">
-                    <img src="./Images/Logo/carbon-logo.svg" alt=""><img src="./Images/image-13autochek.svg" alt=""><img src="./Images/flutterwave.svg" alt=""><img src="./Images/evolvecredit.svg" alt="">
+                    <img src="./Images/Logo/carbon-logo.svg" alt=""><img src="./Images/image-7renmoney.svg" alt=""><img id="flutterwave" src="./Images/flutterwave new.svg" alt="" ><img src="./Images/evolvecredit.svg" alt="">
                 </div>
             </article>
             <article class="build">
-                <h1>Build for the future <br> of digital finance.</h1>
-                <p>Bring tomorrow's solutions to life, with our <br> custimer-focused solutions, today.</p>
+                <h1>Build for the future of digital finance.</h1>
+                <p>Bring tomorrow's solutions to life, with our  customer-focused solutions, today.</p>
             </article>
             <article class="img-section">
                 <div class="connect boards">
@@ -292,7 +301,7 @@
                     <h3>Connect</h3>
                     <p>Securely access financial accounts for <br> statements, transactions, and identity</p>
                     <button>Start with Connect
-                        <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#367ef3}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="0.95em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#0055ba; color: #0055ba; width: 0.94em;}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
                     </button>
                 </div>
                 <div class="directpay boards">
@@ -305,7 +314,7 @@
                     </button>
                     <div style="display: flex; align-items: center;">
                         <p>In Partnership with</p>
-                        <img src="./Images/flutterwave.svg" alt="">
+                        <img src="./Images/flutterwave new.svg" alt="" width="150px">
                     </div>
                 </div>
                 <div class="percept boards">
@@ -314,7 +323,8 @@
                     <p>Money operations and reconciliation for all <br> your corporate accounts, in one dashboard</p>
                     <button>
                         Request access
-                        <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#f0f2f5}</style><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+                        <svg width="48px" height="48px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 7V12L13.5 14.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 512 512">! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.<style>svg{fill:#f0f2f5}</style><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg> -->
                     </button>
                 </div>
             </article>
@@ -334,10 +344,10 @@
                 <div class="board-details">
                     <div class="bd-text">
                         <h1>Carbon's personalized loan offers</h1>
-                        <p>Carbon wanted to make their risk assessment and  borrower qualification better with high-quality data
-                           Using Mono's Statement Pages, Carbon can receive it's  users' bank statements in minutes. They get cash flow  on the accounts for up to 12 months, all seemlessly  without writing a single line of code</p>
+                        <p>Carbon wanted to make their risk assessment and  borrower qualification better with high-quality data</p>
+                        <p>Using Mono's Statement Pages, Carbon can receive it's  users' bank statements in minutes. They get cash flow  on the accounts for up to 12 months, all seemlessly  without writing a single line of code</p>
                         <a href="">Read more about Statement Pages 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 12l-6-6m6 6l-6 6m6-6H5"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 12l-6-6m6 6l-6 6m6-6H5"/></svg>
                         </a>
                     </div>
                     <div class="bd-image">
@@ -353,10 +363,19 @@
             </article>
             <article class="why-flex">
                 <div class="testimony-1">
-                    <h2 style="font-style: italic; font-size: 70px; font-family: 'Second DM font', sans-serif;"> " </h2>
+                    <!-- <h2 style="font-style: italic; font-size: 70px; font-family: 'Second DM font', sans-serif;"> " </h2> -->
+                      <svg viewBox="0 0 40 40" fill="none" class="quote">
+                            <path d="M20.2722 9H12.2458C11.477 9 10.7763 9.44069 10.4432 10.1336L1.37767 28.9954C0.739517 30.3231 1.70713 31.8617 3.18028 31.8617H7.29599C7.95436 31.8617 8.57056 31.5377 8.94372 30.9953L21.92 12.1336C22.8328 10.8066 21.8829 9 20.2722 9Z" fill="black"></path>
+                            <path d="M36.1961 9H28.1696C27.4008 9 26.7001 9.44069 26.367 10.1336L17.3015 28.9954C16.6633 30.3231 17.631 31.8617 19.1041 31.8617H23.2198C23.8782 31.8617 24.4944 31.5377 24.8675 30.9953L37.8438 12.1336C38.7567 10.8066 37.8067 9 36.1961 9Z" fill="black"></path>
+                      </svg>
                     <h2>It's important to go  with a data provider  that inspires  confidence in users  to give consent to  share their data; this  is one of our  favourite things  about Mono.</h2>
                     <div class="people">
-                        <img src="./Images/image (1).webp" alt="">
+                        <div class="people-image">
+                            <img src="./Images/image (1).webp" alt="">
+                            <span class="image-tag">
+                                <img src="./Images/image (3).webp" alt="">
+                            </span>
+                        </div>
                         <div class="people-name">
                             <h3>Barima Effah-Adjei</h3>
                             <p>Co-founder, Float</p>
@@ -364,10 +383,19 @@
                     </div>
                 </div>
                 <div class="testimony-2">
-                    <h2 style="font-family: 'Second DM font', sans-serif; font-style: italic; font-size: 70px; line-height: 24px;"> " </h2>
-                    <h2>The onboarding and integration process  with Mono was smooth. Our Engineering and Product teams use the dashboard to oversee our statement collection process</h2>
+                    <!-- <h2 style="font-family: 'Second DM font', sans-serif; font-style: italic; font-size: 70px; line-height: 24px;"> " </h2> -->
+                      <svg viewBox="0 0 40 40" fill="none" class="quote">
+                            <path d="M20.2722 9H12.2458C11.477 9 10.7763 9.44069 10.4432 10.1336L1.37767 28.9954C0.739517 30.3231 1.70713 31.8617 3.18028 31.8617H7.29599C7.95436 31.8617 8.57056 31.5377 8.94372 30.9953L21.92 12.1336C22.8328 10.8066 21.8829 9 20.2722 9Z" fill="black"></path>
+                            <path d="M36.1961 9H28.1696C27.4008 9 26.7001 9.44069 26.367 10.1336L17.3015 28.9954C16.6633 30.3231 17.631 31.8617 19.1041 31.8617H23.2198C23.8782 31.8617 24.4944 31.5377 24.8675 30.9953L37.8438 12.1336C38.7567 10.8066 37.8067 9 36.1961 9Z" fill="black"></path>
+                     </svg>
+                    <h2>The onboarding and integration process  with Mono was smooth. Our Engineering and Product teams use the dashboard to oversee our statement collection process.</h2>
                     <div class="people">
-                        <img src="./Images/image (2).webp " alt="">
+                        <div class="people-image">
+                            <img src="./Images/image (2).webp " alt="">
+                            <span class="image-tag">
+                                <img src="./Images/image (4).webp" alt="">
+                            </span>
+                        </div>
                         <div class="people-name">
                             <h3>Emmanuel Ogunsola</h3>
                             <p>Product Manager, Aella</p>
@@ -386,7 +414,7 @@
                 </div>
             </article>
         </section>
-    </div>
+</div>
     <section class="getting-started">
      <div class="getting-started-container">
             <h1>Getting Started</h1>
@@ -394,44 +422,47 @@
                <div class="API">
                       <div class="API-docs">
                         <img src="./Images/icon_powerful-apis-1.svg" alt="">
-                          <h1>Powerful APIs <br> and easy-to-use <br> properties</h1>
-                          <a href="">Read our API Docs</a>
+                        <h1>Powerful APIs  and easy-to-use properties</h1>
+                        <a href="">Read our API Docs</a>
                       </div>
                       <div class="response">
                           <img src="./Images/api-response-frame.png" alt="">
                       </div>
               </div>
-                  <div class="SDK">
-                      <img src="./Images/icon_powerful-apis-1 (1).svg" alt="">
-                      <h1>Plug-and-play SDKs</h1>
-                      <a href="">Explore our SDKs <img src="./Images/arrow-upper-right.png" alt="" width="20px"></a>
-                  </div>
-                  <div class="SDK">
-                      <img src="./Images/icon_plug-and-play-sdks.svg" alt="">
-                      <h1>Beautiful seamless UX</h1>
-                      <a href="">See a Demo <img src="./Images/arrow-upper-right.png" alt="" width="20px"></a>
-                  </div>
-                  <div class="SDK">
-                      <img src="./Images/icon_beautiful-ux.svg" alt="">
-                      <h1>Always on support</h1> 
-                        <a href="">Join us on Slack</a>
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><path fill="rgba(21, 28, 232, 0.9568627450980393)" d="M204 64v104a12 12 0 0 1-24 0V93L72.49 200.49a12 12 0 0 1-17-17L163 76H88a12 12 0 0 1 0-24h104a12 12 0 0 1 12 12"/></svg> -->
+                  <div class="SDK-Flex">
+                      <div class="SDK">
+                         <img src="./Images/icon_plug-and-play-sdks.svg" alt="">
+                          <h1>Plug-and-play SDKs</h1>
+                          <a href="">Explore our SDKs <img src="./Images/arrow-upper-right.png" alt=""></a>
+                      </div>
+                      <div class="SDK">
+                          <img src="./Images/icon_beautiful-ux.svg" alt="">
+                          <h1>Beautiful seamless UX</h1>
+                          <a href="">See a Demo <img src="./Images/arrow-upper-right.png" alt=""></a>
+                      </div>
+                      <div class="SDK">
+                          <img src="./Images/icon_slack.svg" alt="">
+                          <h1>Always on support</h1>
+                            <a href="">Join us on Slack</a>
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><path fill="rgba(21, 28, 232, 0.9568627450980393)" d="M204 64v104a12 12 0 0 1-24 0V93L72.49 200.49a12 12 0 0 1-17-17L163 76H88a12 12 0 0 1 0-24h104a12 12 0 0 1 12 12"/></svg> -->
+                      </div>
                   </div>
           </article>
      </div>
   </section>
+
 <footer>
  <div class="fcontainer">
       <div class="footer-head">
         <h1>Start building with Mono</h1>
-        <p>Access high-quality financial data and start processing <br> payments directly from bank accounts in minutes</p>
+        <p>Access high-quality financial data and start processing payments directly from bank accounts in minutes</p>
         <div class="buttons" style=>
-          <button class="button-1">
-            Start now for free
+          <button class="btn-1">
+            <div>Start now for free</div>
             <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#e9ecf1}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
         </button>
-          <button class="button-2">
-            Talk to Sales
+          <button class="bttn-2">
+            <div>Talk to Sales</div>
             <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#e9ecf1}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
         </button>
         </div>
@@ -479,7 +510,7 @@
             <li>Security</li>
           </div>
       </div>
-      <div class="groove"></div>
+      <!-- <div class="groove"></div> -->
           <div class="bottom">
             <div class="bottom-logo">
                 <img src="./Images/Logo/footer-logo.svg" alt="">
@@ -490,9 +521,9 @@
                     <img src="./Images/Socials/twitter.png" alt="">
                     <h5>Twitter(X)</h5>
                 </div>
-                <div class="bridge">
+                <!-- <div class="bridge">
                     <p>.</p>
-                </div>
+                </div> -->
                 <div class="twitter">
                     <img src="./Images/Socials/linkedin.png" alt="">
                     <h5>LinkedIn</h5>
