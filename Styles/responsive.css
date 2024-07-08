@@ -144,7 +144,7 @@
         font-size: 14px;
         line-height: 12px;
         width: 100%;
-        text-wrap: nowrap;
+        /* text-wrap: nowrap; */
     }
     .img-section{
         display: flex;
@@ -613,7 +613,7 @@
     .build p{
         font-size: 19px;
         line-height: 30px;
-        width: 80%;
+        width: 100%;
     }
     .img-section{
         width: 90%;
