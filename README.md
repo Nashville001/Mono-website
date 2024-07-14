@@ -1,4 +1,6 @@
 # Mono-website-Clone
+![Screenshot 2024-07-14 172749](https://github.com/user-attachments/assets/9031e4e8-aeb9-405c-96f6-c438a2822527)
+
 This is a mono website clone, an API fintech company that helps businesses to access high-quality financial data and direct bank payments.  The clone aims to replicate the look and feel of the original Mono website, showcasing its features and services.
 
 ## Table of Contents
